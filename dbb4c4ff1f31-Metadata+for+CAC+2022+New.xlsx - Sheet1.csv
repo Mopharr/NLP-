@@ -1,0 +1,14 @@
+Field,Definition
+CDF_SEQ_ID,Unique number to identify Wells Fargo transaction. This has been prepended with a 'T' to prevent acccidental formatting as a number by Excel.
+SOR,"Source of record (HH = ACH, HY = Bill Pay, CC = Credit Card)"
+trans_desc,Description of the transaction
+merchant_cat_code,ISO18245 merchant category code
+amt,transaction amount
+db_cr_cd,"flag for credit c, or debit d"
+payment_reporting_category,"Type of payment (Wire transfer, bill pay, etc.)"
+is_international,International transaction flag
+default_brand,Merchant Name
+default_location,merchant location
+qrated brand,Sanitized merchant name
+coalesced_brand,Sanitized brand where it exists; default brand otherwise
+cateogy,transaction type
